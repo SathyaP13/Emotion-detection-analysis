@@ -31,8 +31,10 @@
 ## 🚀 Getting Started
 - Environment setup: Use Virtual Environment so the arithmetics used for other projects are left untouched.
 - Type the following commands one after another in the terminal.
-- python -m venv env # to create virtual environment(Note: env at the end is environment name - it can be any name provided by the developer).
+- python -m venv env
+  - to create virtual environment(Note: env at the end is environment name - it can be any name provided by the developer).
 - .\env\Scripts\activate
+  - to activate the scripts that has been created in virtual environment.
 - pip install streamlit dlib torch torchvision opencv-python matplotlib scikit-learn
 - Prepare your dataset:
   - Ensure your dataset is organized and preprocessed according to the expectations of the DataLoader in the training script.(Note: Place your dataset in a folder in GDrive if Google Collab is being used).
